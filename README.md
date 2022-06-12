@@ -8,6 +8,14 @@
 
 # Glitch text for ```react``` 🔮
 
+
+
+https://user-images.githubusercontent.com/58357980/173233890-9801b49f-5c2b-4f7b-8c0f-b6e6ca0c1f3f.mp4
+
+
+
+
+
 ## This nice and simple ``(1kB)`` react component can help you ``add text glitch animation`` and have some really cool themes, ```like orange glitch or blue glitch```
 ## The glitch is really smooth, I tried to make more distortion but it's looked awful
 
