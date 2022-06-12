@@ -43,8 +43,10 @@ const App = () => {
   );
 };
 ```
-
 Text fully customazible but try use parents tags for styling
+
+I'm recommend use `50px - 100px range` for more beauty effect
+
 
 ___
 
