@@ -1,0 +1,86 @@
+{
+  "version": "1.6.1",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "src"
+  ],
+  "engines": {
+    "node": ">=10"
+  },
+  "scripts": {
+    "start": "tsdx watch",
+    "build": "tsdx build",
+    "test": "tsdx test --passWithNoTests",
+    "lint": "tsdx lint",
+    "prepare": "tsdx build",
+    "size": "size-limit",
+    "analyze": "size-limit --why"
+  },
+  "peerDependencies": {
+    "react": ">=16"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "tsdx lint"
+    }
+  },
+  "prettier": {
+    "printWidth": 80,
+    "semi": true,
+    "singleQuote": true,
+    "trailingComma": "es5"
+  },
+  "name": "glitch-text",
+  "author": "Ivan",
+  "homepage": "https://github.com/Ivan-Corporation/glitch-text",
+  "bugs": {
+    "url": "https://github.com/Ivan-Corporation/glitch-text/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Ivan-Corporation/glitch-text.git"
+  },
+  "module": "dist/glitch-text.esm.js",
+  "keywords": [
+    "react",
+    "github",
+    "text",
+    "css",
+    "animation",
+    "sass",
+    "component",
+    "visual",
+    "effect"
+  ],
+  "size-limit": [
+    {
+      "path": "dist/glitch-text.cjs.production.min.js",
+      "limit": "10 KB"
+    },
+    {
+      "path": "dist/glitch-text.esm.js",
+      "limit": "10 KB"
+    }
+  ],
+  "devDependencies": {
+    "@babel/core": "^7.17.0",
+    "@size-limit/preset-small-lib": "^7.0.8",
+    "@types/react": "^17.0.45",
+    "@types/react-dom": "^17.0.11",
+    "babel-loader": "^8.2.3",
+    "husky": "^7.0.4",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-is": "^17.0.2",
+    "rollup-plugin-postcss": "^4.0.2",
+    "rollup-plugin-typescript2": "^0.31.2",
+    "sass": "^1.49.7",
+    "size-limit": "^7.0.8",
+    "tsdx": "^0.14.1",
+    "tslib": "^2.4.0",
+    "typescript": "^4.5.5"
+  }
+}
