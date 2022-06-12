@@ -83,3 +83,7 @@ ___
 | text(string)| yes | - | text where you want use glitch animation |
 | theme(string) | yes | orange | glitch color |
 
+
+
+
+npm - https://www.npmjs.com/package/glitch-text
